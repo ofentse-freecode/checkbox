@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"Overpass", sans-serif;
+
+}
+
+body{
+    background-color:  hsl(216, 12%, 8%);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.card{
+    background-color: hsl(214, 15%, 18%);
+    width:380px;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.card img{
+    padding:5px;
+    margin:5px;
+}
+
+.card h1{
+    color:white;
+    font-weight:700;
+    padding:5px;
+    font-size: 25px;
+}
+.card p{
+    color: hsl(217, 12%, 63%);
+    padding:5px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+/*--radio buttons--*/
+
+.label{
+    width:8.0em;
+    height:3.0em;
+}
+
+.lebel span{
+    text-align: center;
+    display:block;
+}
+/*--submit---*/
+.btn{
+    width:90%;
+    padding:10px;
+    margin:5px;
+    border-radius: 20px;
+    background-color:white;
+    font-weight:600;
+    text-transform: uppercase;
+    border:none;
+   
+}
+
+.card-thank-you{
+    background-color: hsl(214, 15%, 18%);
+    width:400px;
+    padding:20px;
+    margin: 10px;
+    border-radius:10px;
+  
+}
+
+.card-thank-you img{
+   margin:5px 0 10px 100px;
+}
+
+.btns{
+    width:50%;
+    padding:3px;
+    margin:5px;
+    border-radius: 20px;
+    color:hsl(25, 97%, 53%);
+    font-weight:300;
+    background-color: hsl(212, 12%, 24%);;
+    border:none;
+    margin:5px 0 20px 100px;
+}
+.card-thank-you h1{
+    color:white;
+    margin:5px 0 10px 100px;
+}
+.card-thank-you p{
+color:hsl(217, 12%, 63%);
+padding:20px;
+text-align:center;
+}
+

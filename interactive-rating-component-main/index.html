@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+<main class = card>
+  <img src="./images/icon-star.svg" alt="orage star logo"/>
+
+  <h1>How did we do?</h1>
+<p>
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+
+  <form id="form">
+    <div class="container">
+<label class="label" for="first-rating"><input id="first-rating" type="radio" name="rating"><span>1</span></label>
+
+<label class="label" for="second-rating"><input id="second-rating" type="radio" name="rating"><span>2</span></label>
+
+<label class="label" for="third-rating"><input id="third-rating" type="radio" name="rating"><span>3</span></label>
+
+<label class="label" class="label" for="fourth-rating"><input id="fourth-rating" type="radio" name="rating"><span>4</span></label>
+
+<label class="label" for="fifth-rating"><input id="fifth-rating" type="radio" name="rating"><span>5</span></label>
+</div>
+<button class="btn" type="submit">Submit</button>
+    
+  </form>
+ 
+ 
+  <!-- Rating state end -->
+</main>
+  <!-- Thank you state start -->
+<div class="card-thank-you">
+<img src="./images/illustration-thank-you.svg" alt="Pay point illustration with orange card"/>
+
+  <button class="btns">You selected <span id="seletcted"></span>out of 5</button>
+
+  <h1>Thank you!</h1>
+
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+
+  <!-- Thank you state end -->
+</div>
+  
+ 
+  </div>
+</body>
+</html>
