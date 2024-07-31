@@ -18,6 +18,7 @@ body{
     padding:20px;
     margin:10px;
     border-radius:10px;
+    position:relative;
 }
 
 .card img{
@@ -38,23 +39,38 @@ body{
     margin-bottom: 6px;
 }
 /*--radio buttons--*/
-
+.form input{
+    display:none;
+}
 .label{
-    width:8.0em;
-    height:3.0em;
+    background-color: hsl(212, 19%, 26%);
+    padding:13px;
+    border-radius:50%;
+    margin:10px;
+    height:0px;
+    color:hsl(217, 12%, 63%);
+}
+.label:hover{
+    background-color:white;
+}
+.label :checked{
+background-color: orange;
 }
 
-.lebel span{
-    text-align: center;
-    display:block;
+.container{
+    margin:20px;
+    padding:5px;
 }
+
+
+
 /*--submit---*/
 .btn{
     width:90%;
     padding:10px;
-    margin:5px;
+    margin:10px;
     border-radius: 20px;
-    background-color:white;
+    background-color:hsl(25, 97%, 53%);
     font-weight:600;
     text-transform: uppercase;
     border:none;
@@ -67,7 +83,11 @@ body{
     padding:20px;
     margin: 10px;
     border-radius:10px;
+   /* position:absolute;*/
   
+}
+.toggle{
+    display: none;
 }
 
 .card-thank-you img{
