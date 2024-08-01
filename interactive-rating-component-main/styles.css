@@ -53,8 +53,8 @@ body{
 .label:hover{
     background-color:white;
 }
-.label :checked{
-background-color: orange;
+.label-checked{
+background-color: hsl(25, 97%, 53%);
 }
 
 .container{
@@ -77,16 +77,20 @@ background-color: orange;
    
 }
 
+.btn:hover{
+    background-color: white;
+}
+
 .card-thank-you{
     background-color: hsl(214, 15%, 18%);
     width:400px;
     padding:20px;
     margin: 10px;
     border-radius:10px;
-   /* position:absolute;*/
+    position:absolute;
   
 }
-.toggle{
+.none{
     display: none;
 }
 
@@ -105,6 +109,7 @@ background-color: orange;
     border:none;
     margin:5px 0 20px 100px;
 }
+
 .card-thank-you h1{
     color:white;
     margin:5px 0 10px 100px;

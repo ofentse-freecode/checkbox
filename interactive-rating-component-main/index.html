@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+
   <link rel="stylesheet" href="./styles.css">
   
   <title>Frontend Mentor | Interactive rating component</title>
@@ -31,27 +32,29 @@
   Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
 
-  <form id="form" class="form">
-    <div class="container">
-<label class="label" for="first-rating"><input id="first-rating" type="radio" name="rating"><span>1</span></label>
+<form id="form" class="form">
+ <div class="container">
+  <label class="label" for="first-rating"><input id="first-rating" type="radio" name="rating"><span class="number">1</span></label>
 
-<label class="label" for="second-rating"><input id="second-rating" type="radio" name="rating">2</label>
+  <label class="label" for="second-rating"><input id="second-rating" type="radio" name="rating"><span class="number">2</span></label>
 
-<label class="label" for="third-rating"><input id="third-rating" type="radio" name="rating"><span>3</span></label>
+  <label class="label" for="third-rating"><input class="none"id="third-rating" type="radio" name="rating"><span>3</span></label>
 
-<label class="label" class="label" for="fourth-rating"><input id="fourth-rating" type="radio" name="rating"><span>4</span></label>
+  <label class="label" class="label" for="fourth-rating"><input id="fourth-rating" type="radio" name="rating"><span class="number">4</span></label>
 
-<label class="label" for="fifth-rating"><input id="fifth-rating" type="radio" name="rating"><span>5</span></label>
-</div>
-<button class="btn" type="submit">Submit</button>
+  <label class="label" for="fifth-rating"><input id="fifth-rating" type="radio" name="rating"><span class="number">5</span></label>
+  </div>
+
+</form>
+<button class="btn" type="button" >Submit</button>
     
-  </form>
+  
  
  
   <!-- Rating state end -->
 </main>
   <!-- Thank you state start -->
-<div class="card-thank-you">
+<div id="thank-card" class="none">
 <img src="./images/illustration-thank-you.svg" alt="Pay point illustration with orange card"/>
 
   <button class="btns">You selected <span id="seletcted"></span>out of 5</button>
@@ -67,4 +70,5 @@
  
   </div>
 </body>
+<script  src="./index.js"></script>
 </html>
