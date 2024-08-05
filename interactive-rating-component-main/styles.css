@@ -39,23 +39,7 @@ body{
     margin-bottom: 6px;
 }
 /*--radio buttons--*/
-.form input{
-    display:none;
-}
-.label{
-    background-color: hsl(212, 19%, 26%);
-    padding:13px;
-    border-radius:50%;
-    margin:10px;
-    height:0px;
-    color:hsl(217, 12%, 63%);
-}
-.label:hover{
-    background-color:white;
-}
-.label-checked{
-background-color: hsl(25, 97%, 53%);
-}
+
 
 .container{
     margin:20px;
@@ -66,9 +50,9 @@ background-color: hsl(25, 97%, 53%);
 
 /*--submit---*/
 .btn{
-    width:90%;
+    width:100%;
     padding:10px;
-    margin:10px;
+    margin-top:20px;
     border-radius: 20px;
     background-color:hsl(25, 97%, 53%);
     font-weight:600;
@@ -119,4 +103,27 @@ color:hsl(217, 12%, 63%);
 padding:20px;
 text-align:center;
 }
+/*----rating btn---*/
+.container ul li{
+    text-decoration: none;
+    display:inline;
+    padding: 10px;
+   
+}
+.bt{
+    padding:14px;
+    border-radius:50%;
+    border: none;
+    background-color: hsl(212, 19%, 26%);
+    color:hsl(217, 12%, 63%);
+   
+}
 
+.bt:hover{
+    background-color:white;
+}
+.bt-checked{
+background-color: hsl(25, 97%, 53%);
+}
+
+/*--responsive--*/

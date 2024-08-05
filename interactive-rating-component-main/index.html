@@ -34,16 +34,20 @@
 
 <form id="form" class="form">
  <div class="container">
-  <label class="label" for="first-rating"><input id="first-rating" type="radio" name="rating"><span class="number">1</span></label>
+  <ul>
+    <li><button class="bt" type="button"><span>1</span></button></li>
 
-  <label class="label" for="second-rating"><input id="second-rating" type="radio" name="rating"><span class="number">2</span></label>
+    <li><button class="bt" type="button"><span>2</span></button></li>
 
-  <label class="label" for="third-rating"><input class="none"id="third-rating" type="radio" name="rating"><span>3</span></label>
+    <li><button class="bt" type="button"><span>3</span></button></li>
 
-  <label class="label" class="label" for="fourth-rating"><input id="fourth-rating" type="radio" name="rating"><span class="number">4</span></label>
+    <li><button class="bt" type="button"><span>4</span></button></li>
 
-  <label class="label" for="fifth-rating"><input id="fifth-rating" type="radio" name="rating"><span class="number">5</span></label>
-  </div>
+    <li><button class="bt" type="button"><span>5</span></button></li>
+
+  
+  </ul>
+
 
 </form>
 <button class="btn" type="button" >Submit</button>
@@ -57,7 +61,7 @@
 <div id="thank-card" class="none">
 <img src="./images/illustration-thank-you.svg" alt="Pay point illustration with orange card"/>
 
-  <button class="btns">You selected <span id="seletcted"></span>out of 5</button>
+  <button class="btns">You selected <span id="selected"></span> out of 5</button>
 
   <h1>Thank you!</h1>
 
@@ -70,5 +74,5 @@
  
   </div>
 </body>
-<script  src="./index.js"></script>
+<script defer  src="./index.js"></script>
 </html>
