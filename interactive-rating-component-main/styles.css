@@ -6,6 +6,7 @@
 }
 
 body{
+    margin:100px;
     background-color:  hsl(216, 12%, 8%);
     display:flex;
     align-items:center;
@@ -127,3 +128,12 @@ background-color: hsl(25, 97%, 53%);
 }
 
 /*--responsive--*/
+@media (max-width: 768px){
+    .conatiner ul li{
+        padding:0;
+    }
+    .bt{
+        padding:10px;
+    }
+   
+}

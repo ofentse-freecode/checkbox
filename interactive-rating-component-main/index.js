@@ -2,18 +2,21 @@ const rating = document.querySelectorAll(".bt");
 const button = document.querySelector(".btn");
 const thankcard = document.getElementById("thank-card");
 let rate = "";
+const card = document.getElementsByClassName("card")
 let selected = document.getElementById("selected");
 
 function toggleClasses() {
   rating.forEach((ratings)=> {
-    ratings.classList.add("bt-checked");
+   if(ratings.classList.contains("bt-checked")){
+    rating.classList.remove("bt:hover")
+   }
   }
   )
 };
 //rate button
 rating.forEach((button)=> {
   button.onclick = function(e){
-   // toggleClasses()
+    toggleClasses()
     e.target.classList.add("bt-checked");
 
     rate = e.target.textContent;
@@ -36,6 +39,7 @@ rating.forEach((button)=> {
 button.onclick = function(){
     thankcard.classList.remove("none");
     thankcard.classList.add("card-thank-you");
+    card.classList.toggle("none");
     console.log('You clicked me!');
     //selected.innerHTML = rate;
   }
